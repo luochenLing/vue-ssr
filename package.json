@@ -6,6 +6,7 @@
     "build:client": "vue-cli-service build",
     "build:server": "cross-env WEBPACK_TARGET=node vue-cli-service build --mode server",
     "build": "npm run build:server && npm run build:client"
+    "start":"node server/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
